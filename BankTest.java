@@ -8,5 +8,7 @@ public class BankTest{
     System.out.println(x.getBalance());
     x.withdraw(500);
     System.out.println(x.getBalance());
+    x.withdraw(1000);
+    System.out.println(x.toString());
   }
 }
