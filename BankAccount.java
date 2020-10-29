@@ -9,15 +9,15 @@ public class BankAccount{
     password=p;
   }
 
-  public int getBalance(){
+  public double getBalance(){
     return balance;
   }
 
   public int getAccountID(){
     return accountID;
   }
-  public void setPassword(int p){
+  public void setPassword(String p){
     password=p;
-    System.out.println("The password is now " + p)
+    System.out.println("The password is now " + p);
   }
 }
