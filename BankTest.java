@@ -4,5 +4,7 @@ public class BankTest{
     System.out.println(x.getAccountID());
     System.out.println(x.getBalance());
     x.setPassword("cheese");
+    System.out.println(x.deposit(1000));
+    System.out.println(x.getBalance());
   }
 }

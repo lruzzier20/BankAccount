@@ -16,8 +16,12 @@ public class BankAccount{
   public int getAccountID(){
     return accountID;
   }
+
   public void setPassword(String p){
     password=p;
-    System.out.println("The password is now " + p);
+  }
+
+  public boolean deposit(double amount){
+    if(amount>=0){balance+=amount; return true;}else{return false;}
   }
 }
