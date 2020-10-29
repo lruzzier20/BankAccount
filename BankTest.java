@@ -6,5 +6,7 @@ public class BankTest{
     x.setPassword("cheese");
     System.out.println(x.deposit(1000));
     System.out.println(x.getBalance());
+    x.withdraw(500);
+    System.out.println(x.getBalance());
   }
 }
